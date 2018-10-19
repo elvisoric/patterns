@@ -7,7 +7,7 @@ namespace creational {
 template <typename Type>
 class Singleton {
  public:
-  Type& instance() {
+  static Type& instance() {
     static Type instance = Type{};
     return type;
   }
