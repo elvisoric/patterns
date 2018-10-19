@@ -1,5 +1,7 @@
-#ifndef PATTERNS_BEHAVIORAL_HPP
-#define PATTERNS_BEHAVIORAL_HPP
+#ifndef PATTERNS_BEHAVIORAL_OBSERVER_HPP
+#define PATTERNS_BEHAVIORAL_OBSERVER_HPP
+#include <functional>
+#include <vector>
 
 namespace patterns {
 namespace behavioral {
@@ -21,4 +23,4 @@ class Subject {
 }  // namespace behavioral
 }  // namespace patterns
 
-#endif  // PATTERNS_BEHAVIORAL_HPP
+#endif  // PATTERNS_BEHAVIORAL_OBSERVER_HPP
