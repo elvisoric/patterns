@@ -9,7 +9,7 @@ class Singleton {
  public:
   static Type& instance() {
     static Type instance = Type{};
-    return type;
+    return instance;
   }
 };
 
